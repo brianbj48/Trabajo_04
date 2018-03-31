@@ -149,16 +149,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="arithmetic.h" />
-    <ClInclude Include="listClass.h" />
+    <ClInclude Include="list.h" />
     <ClInclude Include="menu.h" />
+    <ClInclude Include="nodo.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="swap.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="arithmetic.cpp" />
-    <ClCompile Include="listClass.cpp" />
+    <ClCompile Include="list.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="nodo.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
