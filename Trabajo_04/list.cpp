@@ -23,9 +23,9 @@ void list::insert(int v) {
 				plist = newNodo;
 			}
 			else {
-				pnodo newNodo = new nodo(v, plist->nextNodo, plist);
-				plist->nextNodo = newNodo;
-				if (newNodo->nextNodo) newNodo->nextNodo->previousNodo = newNodo;
+				pnodo newNodo = new nodo(v, plist->_nextNodo, plist);
+				plist->_nextNodo = newNodo;
+				if (newNodo->_nextNodo) newNodo->_nextNodo->_prevNodo = newNodo;
 			}
 			printf("El valor es primo y ha ingresado correctamente en la lista");
 		}

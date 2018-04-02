@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  arithmetic.cpp
+  list.cpp
+  menu.cpp
+c:\users\brian\documents\developer\globant\cplusplus\trabajo_04\trabajo_04\menu.cpp(31): warning C4477: 'scanf_s' : la cadena de formato '%d' requiere un argumento de tipo 'int *', pero el argumento variádico 1 tiene el tipo 'int **'
+c:\users\brian\documents\developer\globant\cplusplus\trabajo_04\trabajo_04\menu.cpp(31): warning C4477: 'scanf_s' : la cadena de formato '%d' requiere un argumento de tipo 'int *', pero el argumento variádico 2 tiene el tipo 'int **'
+  nodo.cpp
+  main.cpp
+  swap.cpp
+list.obj : error LNK2005: ya se definió "public: __thiscall list::~list(void)" (??1list@@QAE@XZ) en list.obj
+C:\Users\Brian\Documents\Developer\Globant\Cplusplus\Trabajo_04\Release\main.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente

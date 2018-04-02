@@ -150,6 +150,7 @@
   <ItemGroup>
     <ClInclude Include="arithmetic.h" />
     <ClInclude Include="list.h" />
+    <ClInclude Include="main.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="nodo.h" />
     <ClInclude Include="stdafx.h" />

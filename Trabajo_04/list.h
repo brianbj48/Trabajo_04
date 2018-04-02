@@ -3,7 +3,14 @@
 class list {
 public:
 	list() : plist(NULL) {}
-	~list();
+	~list() {
+		pnodo aux;
+		while (plist) {
+			aux = plist;
+			plist = plist->_nextNodo;
+			delete aux;
+		}
+	}
 	void insert(int v);
 	bool cleanList() { return plist == NULL; }
 private:
@@ -11,7 +18,7 @@ private:
 };
 
 
-
+#if 0
 list::~list() {
 	pnodo aux;
 	while (plist) {
@@ -20,3 +27,4 @@ list::~list() {
 		delete aux;
 	}
 }
+#endif

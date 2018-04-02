@@ -6,13 +6,41 @@
 #include "list.h"
 
 
+#include "main.h"
+#include <cctype>
+
+int PrintM() {
+	std::locale::global(std::locale("spanish"));
+	system("cls");
+	int election;
+	printf("Bienvenido nuevamente! Elija una opción:\n\n[1] Ejercicio 2 resuelto y ejercicio 3\n[2] Ejercicio 4\n\nIngrese un valor y presione ENTER:\n");
+
+	scanf_s("%d", &election);
+	system("cls");
+	if ((election >0 && election < 10) || election == 99) {
+		if (std::isdigit(election)) {
+			Restart();
+		}
+		else return election;
+	}
+	else Restart();
+}
+
+void Restart() {
+	std::cout << "Solo puede ingresar valores enteros entre 0 y 10, pulse una tecla para volver a empezar" << std::endl;
+	_getch();
+	main();
+}
+
+
+
 void menuPrint(int choice)
 {
 
 	switch (choice)
 	{
 		case 1:
-			firstStep(); //
+			firstStep();
 			break;
 		case 2:
 			secondStep();
@@ -23,9 +51,9 @@ void menuPrint(int choice)
 }
 
 void firstStep() {
-	printf("Ejercicio2: ");
+	printf("\nResultado ejercicio 2: ");
 	arithmetic();
-	printf("\nEjercicio3:\nIngrese dos numeros enteros para swap1\n");
+	printf("\n\nEjercicio 3:\nIngrese dos numeros enteros para swap1\n");
 	int *num1 = 0;
 	int *num2 = 0;
 	scanf_s("%d%d", &num1, &num2);

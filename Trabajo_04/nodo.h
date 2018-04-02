@@ -3,23 +3,31 @@
 class nodo {
 public:
 	nodo(
-		int v, 
-		nodo *next = NULL, 
-		nodo *prev = NULL
-	) : value(v), nextNodo(next), previousNodo(prev){}
+		int value, 
+		nodo *nextNodo = NULL, 
+		nodo *prevNodo = NULL
+	) : _value(value), _nextNodo(nextNodo), _prevNodo(prevNodo) {}
+	/*~nodo() {
+		pnodo aux;
+		aux = _pNodo; 
+		delete aux;
+	}*/
 
 private:
-	int value;
-	nodo *nextNodo;
-	nodo *previousNodo;
+	int _value;
+	nodo *_nextNodo;
+	nodo *_prevNodo;
+	//pnodo _pNodo;
 	friend class list;
 };
 
 typedef nodo *pnodo;
 
-//nodo::~nodo() {
-//	pnodo aux;
-//		aux = pNodo;
-//		delete aux;
-//	}
-//};
+#if 0
+nodo::~nodo() {
+	pnodo aux;
+		aux = pNodo;
+		delete aux;
+	}
+};
+#endif
