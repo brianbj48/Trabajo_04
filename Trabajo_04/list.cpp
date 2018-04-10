@@ -18,7 +18,7 @@ void list::insert(int v) {
 		if (prime) printf("El valor ingresado es primo, no ha sido incluído en la lista");
 		else
 		{
-			if (cleanList()) {
+			if (isEmpty()) {
 				pnodo newNodo = new nodo(v);
 				plist = newNodo;
 			}

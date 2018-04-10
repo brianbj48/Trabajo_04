@@ -4,20 +4,15 @@ class nodo {
 public:
 	nodo(
 		int value, 
-		nodo *nextNodo = NULL, 
-		nodo *prevNodo = NULL
+		nodo *nextNodo = nullptr, 
+		nodo *prevNodo = nullptr
 	) : _value(value), _nextNode(nextNodo), _prevNode(prevNodo) {}
-	/*~nodo() {
-		pnodo aux;
-		aux = _pNodo; 
-		delete aux;
-	}*/
+
 
 private:
 	int _value;
 	nodo *_nextNode;
 	nodo *_prevNode;
-	//pnodo _pNodo;
 	friend class list;
 };
 

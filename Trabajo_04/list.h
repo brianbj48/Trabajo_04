@@ -12,7 +12,7 @@ public:
 		}
 	}
 	void insert(int v);
-	bool cleanList() { return plist == NULL; }
+	bool isEmpty() { return plist == NULL; }
 private:
 	pnodo plist;
 };

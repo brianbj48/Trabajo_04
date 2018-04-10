@@ -1,8 +1,6 @@
-﻿  list.cpp
-  menu.cpp
-c:\users\brian\documents\developer\globant\cplusplus\trabajo_04\trabajo_04\menu.cpp(59): warning C4477: 'scanf_s' : la cadena de formato '%d' requiere un argumento de tipo 'int *', pero el argumento variádico 1 tiene el tipo 'int **'
-c:\users\brian\documents\developer\globant\cplusplus\trabajo_04\trabajo_04\menu.cpp(59): warning C4477: 'scanf_s' : la cadena de formato '%d' requiere un argumento de tipo 'int *', pero el argumento variádico 2 tiene el tipo 'int **'
-  nodo.cpp
-  Generando código...
-c:\users\brian\documents\developer\globant\cplusplus\trabajo_04\trabajo_04\menu.cpp(27): warning C4715: 'PrintM': no todas las rutas de acceso de control devuelven un valor
+﻿  swap.cpp
+c:\users\brian\documents\developer\globant\cplusplus\trabajo_04\trabajo_04\swap.cpp(7): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'int *'
+c:\users\brian\documents\developer\globant\cplusplus\trabajo_04\trabajo_04\swap.cpp(7): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 2 tiene el tipo 'int *'
+c:\users\brian\documents\developer\globant\cplusplus\trabajo_04\trabajo_04\swap.cpp(11): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'int *'
+c:\users\brian\documents\developer\globant\cplusplus\trabajo_04\trabajo_04\swap.cpp(11): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 2 tiene el tipo 'int *'
   Trabajo_04.vcxproj -> C:\Users\Brian\Documents\Developer\Globant\Cplusplus\Trabajo_04\Debug\main.exe

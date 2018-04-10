@@ -4,8 +4,6 @@
 #include "swap.h"
 #include "nodo.h"
 #include "list.h"
-
-
 #include "main.h"
 #include <cctype>
 
@@ -31,8 +29,6 @@ void Restart() {
 	_getch();
 	main();
 }
-
-
 
 void menuPrint(int choice)
 {
