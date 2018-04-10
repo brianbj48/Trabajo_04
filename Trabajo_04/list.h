@@ -7,7 +7,7 @@ public:
 		pnodo aux;
 		while (plist) {
 			aux = plist;
-			plist = plist->_nextNodo;
+			plist = plist->_nextNode;
 			delete aux;
 		}
 	}

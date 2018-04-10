@@ -6,7 +6,7 @@ public:
 		int value, 
 		nodo *nextNodo = NULL, 
 		nodo *prevNodo = NULL
-	) : _value(value), _nextNodo(nextNodo), _prevNodo(prevNodo) {}
+	) : _value(value), _nextNode(nextNodo), _prevNode(prevNodo) {}
 	/*~nodo() {
 		pnodo aux;
 		aux = _pNodo; 
@@ -15,8 +15,8 @@ public:
 
 private:
 	int _value;
-	nodo *_nextNodo;
-	nodo *_prevNodo;
+	nodo *_nextNode;
+	nodo *_prevNode;
 	//pnodo _pNodo;
 	friend class list;
 };
